@@ -1,0 +1,40 @@
+.container {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 10% 90%;
+  grid-template-rows: 15% 85% 5%;
+}
+
+.grid-item {
+  border: 1px solid #fff;
+}
+.grid-logo {
+  grid-column: 2/3;
+}
+.grid-sidebar {
+  grid-row: 1/3;
+}
+.grid-content {
+  display: flex;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  background-color: #7f8c8d;
+}
+.extrato {
+  width: 100%;
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.grid-footer {
+  grid-column: 1 / 3;
+  grid-row: 3 / 3;
+}
+.logo {
+  width: 100%;
+  height: 100%;
+}

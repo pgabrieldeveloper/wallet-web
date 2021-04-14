@@ -1,17 +1,15 @@
 .logo {
-  height: 10%;
-
   background-color: #181c2e;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 3%;
   flex-direction: column;
 }
 
 .logo > img {
   width: 10%;
 }
+
 .logo > h2 {
   color: #ecece1;
 }

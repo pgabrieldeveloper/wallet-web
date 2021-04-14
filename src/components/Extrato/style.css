@@ -1,0 +1,12 @@
+.extratoo {
+  border: 1px solid #181c2e;
+  margin: 5px;
+  background-color: #181c2e;
+  padding: 2%;
+  border-radius: 5%;
+}
+
+.extratoo span,
+.extratoo li {
+  font-size: 20px;
+}

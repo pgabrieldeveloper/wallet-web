@@ -4,6 +4,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 10%;
+  border-radius: 10px;
 }
 
 .login-area {
@@ -20,13 +22,14 @@ form {
   display: flex;
   flex-direction: column;
   width: 70%;
+  height: 100%;
   background-color: #ecece1;
   padding: 1%;
   margin-top: 5%;
 }
 
 .logo {
-  width: 90%;
+  width: 100%;
 }
 
 form button {
